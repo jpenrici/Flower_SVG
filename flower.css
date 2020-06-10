@@ -1,50 +1,56 @@
 table {
-  border-collapse: collapse;
-  width: 30%;
+    border-collapse: collapse;
+    width: 30%;
 }
 
-th, td {
-  text-align: left;
-  padding: 4px;
+tr {
+    background-color: #3C4254;
+    color: white;
 }
 
-tr, th {
-  background-color: #3C4254;
-  color: white;
+th {
+    text-align: left;
+    padding: 4px;
+}
+
+td {
+    text-align: center;
+    padding: 4px;
 }
 
 .slidecontainer {
-  width: 10%;
+    width: 10%;
 }
 
 .slider {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 100%;
-  height: 25px;
-  background: #ABB1DA;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    background: #ABB1DA;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
 }
 
 .slider:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 05px;
-  height: 25px;
-  background: #FFFFFF;
-  cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 05px;
+    height: 25px;
+    background: #FFFFFF;
+    cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-  width: 05px;
-  height: 25px;
-  background: #FFFFFF;
-  cursor: pointer;
+    width: 05px;
+    height: 25px;
+    background: #FFFFFF;
+    cursor: pointer;
 }

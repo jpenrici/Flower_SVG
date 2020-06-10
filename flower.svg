@@ -18,7 +18,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Flor SVG com Javascprit</dc:title>
+        <dc:title>Flor SVG com JavaScript</dc:title>
         <dc:date>Junho 2020</dc:date>
         <dc:creator>
           <cc:Agent>
@@ -42,9 +42,9 @@
   <defs
      id="defs1" />
   <title
-     id="title1">Flor SVG com Javascprit</title>
+     id="title1">Flor SVG com JavaScript</title>
   <desc
-     id="desc1">Imagem SVG alterada via Javascprit</desc>
+     id="desc1">Imagem SVG alterada via JavaScript</desc>
   <path
      id="petalas"
      d="M 155.00,150.00
