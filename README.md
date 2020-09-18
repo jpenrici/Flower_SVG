@@ -1,4 +1,4 @@
-# Flower_SVG-JS
+# Flower_SVG
 
 Manipulating SVG image with JavaScript.
 
