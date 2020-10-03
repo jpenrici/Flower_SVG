@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flor em SVG</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="../css/flower.css" media="screen" />
+        <script type="text/javascript" src="../javascript/flower.js"></script>
+    </head>
+    <body>
+        <h1>Utiliza&ccedil;&atilde;o de SVG e JavaScript</h1>
+        <div class="page-content">
+            <div>
+                <object id="flower-svg" width="300" height="300" type="image/svg+xml" data="../images/flower.svg"></object>
+            </div>
+            <table>
+                <tr>
+                    <th>Tamanho:</th>
+                    <td>
+                        <input class="slider" id="tamanhoFlor" type="range" min="50" max="150" value="50" step="1" oninput="valorTamanho.value = tamanhoFlor.value" onchange="atualizar()">
+                        <output name="tamanho" id="valorTamanho" for="tamanhoFlor"></output>
+                    </td>
+                </tr>
+                <tr>
+                    <th>N&uacute;mero P&eacute;talas:</th>
+                    <td>
+                        <input class="slider" id="numPelatas" type="range" min="3" max="30" value="3" step="1" oninput="valorNum.value = numPelatas.value" onchange="atualizar()">
+                        <output name="numero" id="valorNum" for="numPelatas"></output>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
