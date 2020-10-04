@@ -4,7 +4,7 @@ Manipulating SVG image with JavaScript.
 
 # Display
 
-![display](https://github.com/jpenrici/Flower_SVG-JS/blob/master/display/display.png)
+![display](https://github.com/jpenrici/Flower_SVG-JS/blob/master/display/flower.gif)
 
 
 ## Detail
